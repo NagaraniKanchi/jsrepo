@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Addition of 3 Numbers
+    </title>
+    <script>
+        //Called functiom
+        function getSum(a, b, c) {
+            var result
+            result = a + b + c
+            return result
+        }
+        function avgOfSixNumbers(a, b, c, d, e, f) {
+            var result
+            result = (getSum(a, b, c) + getSum(d, e, f)) / 6
+            console.log(result);
+        }
+        //calling function
+        avgOfSixNumbers(20, 40, 50, 60, 50, 40)
+
+    </script>
+</head>
+
+<body>
+    <h2 style="color:brown;">see the output in console part</h2>
+</body>
+
+</html>
